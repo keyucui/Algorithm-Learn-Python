@@ -1,5 +1,5 @@
 #encoding=utf-8
-#实现快速排序
+#递归实现快速排序
 
 def quickSort(arr, firstIndex, lastIndex):
     if firstIndex >= lastIndex:
@@ -8,16 +8,6 @@ def quickSort(arr, firstIndex, lastIndex):
         divIndex = Partition(arr, firstIndex, lastIndex)
         quickSort(arr, firstIndex, divIndex)
         quickSort(arr, divIndex + 1, lastIndex)
-
-
-def QuickSort(arr, firstIndex, lastIndex):
-    if firstIndex < lastIndex:
-        divIndex = Partition(arr, firstIndex, lastIndex)
-
-        QuickSort(arr, firstIndex, divIndex)
-        QuickSort(arr, divIndex + 1, lastIndex)
-    else:
-        return
 
 def Partition(arr, firstIndex, lastIndex):
     print arr
