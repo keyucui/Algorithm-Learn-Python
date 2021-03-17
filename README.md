@@ -1,2 +1,2 @@
-# Algorithm-Learn-Python-
-learn some traditional Algorithm and use python to make it
+# Algorithm-Learn-Python
+好久没刷leetcode，重新学学吧，趁年轻
